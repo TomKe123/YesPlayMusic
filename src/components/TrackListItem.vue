@@ -48,7 +48,7 @@
         </div>
         <div v-if="!isAlbum" class="artist">
           <span
-            v-if="(track.mark & 1048576) === 1048576"
+            v-if="track.mark === 1318912"
             class="explicit-symbol before-artist"
             ><ExplicitSymbol :size="15"
           /></span>
